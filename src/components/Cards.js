@@ -8,11 +8,17 @@ function Cards() {
       <h1>Check out how we did in these recent events!</h1>
       <div className="cards--container">
         <div className="cards--wrapper">
-          <ul className="card--items">
+          <ul className="cards--items">
             <CardItem
               src="images/sign_up.png"
-              text="Open team played strong throughout the tournament"
+              text="Open Team Played Strong Throughout the Tournament"
               label="Fairfax Invite 2021"
+              path="/about"
+            />
+            <CardItem
+              src="images/charlie_catch.PNG"
+              text="Bruins Finish 2nd at Mixed 5v5 Tournament"
+              label="Hanover Ultimate Classic 2021"
               path="/about"
             />
           </ul>
