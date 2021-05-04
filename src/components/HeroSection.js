@@ -21,7 +21,7 @@ function HeroSection() {
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          WATCH PROMO
+          SIGN UP
         </Button>
       </div>
     </div>
