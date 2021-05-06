@@ -2,7 +2,7 @@ import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
 
-function Cards() {
+function HomeCards() {
   return (
     <div className="cards">
       <h1>Recent Team Events</h1>
@@ -28,4 +28,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default HomeCards;
