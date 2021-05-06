@@ -25,44 +25,44 @@ function Footer() {
           </form>
         </div>
       </section>
-      <section class="social-media">
-        <div class="social-media-wrap">
-          <p class="website-rights">© 2021 Bruins Ultimate</p>
+      <section className="social-media">
+        <div className="social-media-wrap">
+          <p className="website-rights">© 2021 Bruins Ultimate</p>
           <Button buttonStyle="btn--dark btn--medium contact-button">
             Contact Us
           </Button>
-          <div class="social-icons">
+          <div className="social-icons">
             <Link
-              class="social-icon-link facebook"
+              className="social-icon-link facebook"
               to="/"
               target="_blank"
               aria-label="Facebook"
             >
-              <i class="fab fa-facebook-f" />
+              <i className="fab fa-facebook-f" />
             </Link>
             <Link
-              class="social-icon-link instagram"
+              className="social-icon-link instagram"
               to="/"
               target="_blank"
               aria-label="Instagram"
             >
-              <i class="fab fa-instagram" />
+              <i className="fab fa-instagram" />
             </Link>
             <Link
-              class="social-icon-link youtube"
+              className="social-icon-link youtube"
               to="/"
               target="_blank"
               aria-label="Youtube"
             >
-              <i class="fab fa-youtube" />
+              <i className="fab fa-youtube" />
             </Link>
             <Link
-              class="social-icon-link twitter"
+              className="social-icon-link twitter"
               to="/"
               target="_blank"
               aria-label="Twitter"
             >
-              <i class="fab fa-twitter" />
+              <i className="fab fa-twitter" />
             </Link>
           </div>
         </div>
