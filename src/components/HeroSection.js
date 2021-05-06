@@ -13,6 +13,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
+          linkTo="/about"
         >
           ABOUT US
         </Button>
@@ -20,6 +21,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
+          linkTo="/sign-up"
         >
           SIGN UP
         </Button>
