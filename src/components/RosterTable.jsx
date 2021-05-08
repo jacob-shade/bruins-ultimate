@@ -14,8 +14,8 @@ const useStyles = makeStyles({
   },
 });
 
-function createData(date, time, opponent, location, score, outcome) {
-  return { date, time, opponent, location, score, outcome };
+function createData(number, player, pronouns, position, role) {
+  return { number, player, pronouns, position, role };
 }
 
 const rows = [
@@ -30,25 +30,23 @@ export default function BasicTable() {
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell>Date</TableCell>
-            <TableCell align="center">Time</TableCell>
-            <TableCell align="center">Opponent</TableCell>
-            <TableCell align="center">Location</TableCell>
-            <TableCell align="center">Score</TableCell>
-            <TableCell align="center">Outcome</TableCell>
+            <TableCell>Number</TableCell>
+            <TableCell align="center">Player</TableCell>
+            <TableCell align="center">Pronouns</TableCell>
+            <TableCell align="center">Position</TableCell>
+            <TableCell align="center">Role</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {rows.map((row) => (
             <TableRow key={row.name}>
               <TableCell component="th" scope="row">
-                {row.date}
+                {row.number}
               </TableCell>
-              <TableCell align="center">{row.time}</TableCell>
-              <TableCell align="center">{row.opponent}</TableCell>
-              <TableCell align="center">{row.location}</TableCell>
-              <TableCell align="center">{row.score}</TableCell>
-              <TableCell align="center">{row.outcome}</TableCell>
+              <TableCell align="center">{row.player}</TableCell>
+              <TableCell align="center">{row.pronouns}</TableCell>
+              <TableCell align="center">{row.position}</TableCell>
+              <TableCell align="center">{row.role}</TableCell>
             </TableRow>
           ))}
         </TableBody>
