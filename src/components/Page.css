@@ -1,13 +1,21 @@
-.cards {
-  padding: 4rem;
-  background: var(--tertiary);
+h1 {
+  text-align: left;
 }
 
-h1.about, h1.home {
+h1.home {
   text-align: center;
 }
 
-.cards--container {
+.page {
+  display: block;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 4rem;
+}
+
+.page-container {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -16,23 +24,27 @@ h1.about, h1.home {
   margin: 0 auto;
 }
 
-.cards--wrapper {
+.page-wrapper {
   position: relative;
   margin: 50px 0 45px;
 }
 
-.cards--items {
+.page-items {
   margin-bottom: 24px;
 }
 
-.cards--item {
+.page-item {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   display: flex;
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  padding: 1rem;
+  margin-block: 2rem;
 }
 
-.cards--item--link {
+.page-item-link {
   display: flex;
   flex-flow: column;
   width: 100%;
@@ -44,10 +56,9 @@ h1.about, h1.home {
   text-decoration: none;
 }
 
-.cards--item--pic-wrap {
+.page-item-pic-wrap {
   position: relative;
   width: 100%;
-  padding-top: 67%;
   overflow: hidden;
 }
 
@@ -56,7 +67,7 @@ h1.about, h1.home {
   animation-duration: 2s;
 }
 
-.cards--item--pic-wrap::after {
+.page-item-pic-wrap::after {
   content: attr(data-category);
   position: absolute;
   bottom: 0;
@@ -70,7 +81,7 @@ h1.about, h1.home {
   box-sizing: border-box;
 }
 
-.cards--item--img {
+.page-item-img {
   position: absolute;
   top: 0;
   right: 0;
@@ -85,15 +96,15 @@ h1.about, h1.home {
   transition: all 0.2s linear;
 }
 
-.cards--item--img:hover {
+.page-item-img:hover {
   transform: scale(1.1);
 }
 
-.cards--item--info {
+.page-item-info {
   padding: 20px 30px 30px;
 }
 
-.cards--item--text {
+.page-item {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
@@ -106,13 +117,13 @@ h1.about, h1.home {
 }
 
 @media only screen and (min-width: 1024px) {
-  .cards--items {
+  .page--items {
     display: flex;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .cards--item {
+  .page--item {
     margin-bottom: 2rem;
   }
 }

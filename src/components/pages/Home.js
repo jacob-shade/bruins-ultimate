@@ -1,7 +1,7 @@
 import React from 'react';
 import "../../App.css";
 import HeroSection from "../HeroSection";
-import HomeCards from "../HomeCards"
+import HomeCards from "../HomeCards";
 
 function Home () {
   return (
@@ -9,7 +9,7 @@ function Home () {
       <HeroSection />
       <HomeCards />
     </>
-  )
+  );
 }
 
 export default Home;

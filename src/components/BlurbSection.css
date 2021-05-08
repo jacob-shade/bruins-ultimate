@@ -1,0 +1,112 @@
+h1.about-us {
+  text-align: left !important;
+}
+
+h4 {
+  text-align: center;
+}
+
+.blurb-section-bottom {
+  padding-bottom: 30px;
+}
+
+.blurb {
+  padding: 4rem;
+  margin: 0 2rem;
+  background: var(--tertiary);
+}
+
+.d-flex-c {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.d-flex-r {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.blurb-container {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.blurb-section-img {
+  max-width: 50%;
+  height: max-content;
+}
+
+.blurb-section-info {
+  padding: 40px 30px 30px 30px;
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.blurb-section-text {
+  padding-bottom: 50px;
+}
+
+.blurb-section-practice {
+  padding-bottom: 5px;
+}
+
+.list {
+  padding-left: 25px;
+}
+
+hr {
+  display: block;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 30px;
+  color: #252e48;
+}
+
+.hr-skinny {
+  display: block;
+  overflow: hidden;
+  border-width: 1px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .blurb-section {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .blurb {
+    margin: 0 1rem;
+  }
+
+  .blurb-section-info {
+    font-size: 16px;
+    padding: 40px 0;
+  }
+
+  .blurb-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .w-50 {
+    width: 100%;
+  }
+
+  .blurb-section-img {
+    max-width: 100%;
+  }
+}

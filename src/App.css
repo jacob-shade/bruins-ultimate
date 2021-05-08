@@ -11,40 +11,7 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
-.faqs,
-.about,
-.sign-up {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-}
-
-.faqs {
-  background-image: url('images/sign_up.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: var(--tertiary);
-  font-size: 100px;
-}
-
-.about {
-  background-image: url('images/sign_up.png');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: var(--tertiary);
-  font-size: 100px;
-}
-
-.sign-up {
-  background-image: url('images/sign_up.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: var(--tertiary);
-  font-size: 100px;
+.html {
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
