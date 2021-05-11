@@ -10,29 +10,29 @@ export default function Sp21Schedule() {
   return (
     <>
       <h1>Girls Schedule</h1>
-      <hr></hr>
+      <hr className="table-hr"></hr>
       <Sp21GSchedule />
       <h2>Fairfax Invite</h2>
-      <hr className="skinny-hr"></hr>
+      <hr className="skinny-hr table-hr"></hr>
       <Sp21GFairfaxInviteSchedule />
       <h2>Virginia State Championship</h2>
-      <hr className="skinny-hr"></hr>
+      <hr className="skinny-hr table-hr"></hr>
       <ScheduleTBD date="05/22-05/23" location="Lake Fairfax Park"/>
       <h2>YULA Invite</h2>
-      <hr className="skinny-hr"></hr>
+      <hr className="skinny-hr table-hr"></hr>
       <ScheduleTBD date="05/29-05/30" location="Arlington, VA"/>
 
       <h1>Open Schedule</h1>
-      <hr></hr>
+      <hr className="table-hr"></hr>
       <Sp21OSchedule />
       <h2>Fairfax Invite</h2>
-      <hr className="skinny-hr"></hr>
+      <hr className="skinny-hr table-hr"></hr>
       <Sp21OFairfaxInviteSchedule />
       <h2>Virginia State Championship</h2>
-      <hr className="skinny-hr"></hr>
+      <hr className="skinny-hr table-hr"></hr>
       <ScheduleTBD date="05/22-05/23" location="Lake Fairfax Park"/>
       <h2>YULA Invite</h2>
-      <hr className="skinny-hr"></hr>
+      <hr className="skinny-hr table-hr"></hr>
       <ScheduleTBD date="05/29-05/30" location="Arlington, VA"/>
     </>
   );

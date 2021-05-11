@@ -3,7 +3,7 @@ h1, h2 {
   text-align: center;
 }
 
-hr {
+hr.table-hr {
   margin: 0 450px;
   display: flex;
   align-content: center;
@@ -64,7 +64,7 @@ hr {
     margin: 2rem 0 2rem;
   }
 
-  hr {
+  hr.table-hr {
     margin: 0 100px;
   }
 }

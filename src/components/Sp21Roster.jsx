@@ -8,10 +8,10 @@ export default function Sp21Schedule() {
   return (
     <>
       <h1>Girls Roster</h1>
-      <hr></hr>
+      <hr className="table-hr"></hr>
       <Sp21GRoster />
       <h1>Open Roster</h1>
-      <hr></hr>
+      <hr className="table-hr"></hr>
       <Sp21ORoster />
     </>
   );
