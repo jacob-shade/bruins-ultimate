@@ -8,7 +8,6 @@ function AboutBlurbSection() {
       <div className="blurb-container">
         <h1 className="about-us">About Us</h1>
         <hr></hr>
-        <div className="blurb-wrapper">
           <BlurbSection
             src="../images/sign_up.png"
             alt="team photo"
@@ -18,7 +17,6 @@ function AboutBlurbSection() {
             text4="WHERE?&emsp;Lake Braddock Park, Upper Field"
             text5="If you are a Lake Braddock student and are thinking about joining Bruins Ultimate, fill out the interest form here:"
           />
-        </div>
       </div>
     </div>
   );
