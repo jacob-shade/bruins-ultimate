@@ -1,11 +1,11 @@
 import React from 'react';
-import ScheduleTable from "../ScheduleTable"
 import '../../App.css';
+import Sp21Schedule from '../Sp21Schedule';
 
 export default function Schedule() {
   return (
     <>
-      <ScheduleTable />
+      <Sp21Schedule />
     </>
   );
 }

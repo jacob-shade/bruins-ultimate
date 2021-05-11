@@ -7,7 +7,6 @@ import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
-import uniqid from "uniqid";
 import "./Table.css";
 
 const useStyles = makeStyles({
@@ -34,32 +33,23 @@ const StyledTableRow = withStyles((theme) => ({
   },
 }))(TableRow);
 
-export default function RosterTable(props) {
-  const rows = props.rows;
+export default function ScheduleTable(props) {
   const classes = useStyles();
 
   return (
     <TableContainer className="table table-container" component={Paper}>
       <Table className={classes.table} aria-label="cusomized table">
         <TableHead>
-          <TableRow>
-            <StyledTableCell align="center">No.</StyledTableCell>
-            <StyledTableCell align="center">Player</StyledTableCell>
-            <StyledTableCell align="center">Pronouns</StyledTableCell>
-            <StyledTableCell align="center">Grade</StyledTableCell>
-            <StyledTableCell align="center">Role</StyledTableCell>
-          </TableRow>
+          <StyledTableRow>
+            <StyledTableCell align="center">Date</StyledTableCell>
+            <StyledTableCell align="center">Location</StyledTableCell>
+          </StyledTableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
-            <StyledTableRow key={uniqid()}>
-              <StyledTableCell align="center">{row.number}</StyledTableCell>
-              <StyledTableCell align="center">{row.player}</StyledTableCell>
-              <StyledTableCell align="center">{row.pronouns}</StyledTableCell>
-              <StyledTableCell align="center">{row.grade}</StyledTableCell>
-              <StyledTableCell align="center">{row.role}</StyledTableCell>
+            <StyledTableRow key={props.date.name}>
+              <StyledTableCell align="center">{props.date}</StyledTableCell>
+              <StyledTableCell align="center">{props.location}</StyledTableCell>
             </StyledTableRow>
-          ))}
         </TableBody>
       </Table>
     </TableContainer>

@@ -1,18 +1,28 @@
-.table {
-  padding: 4rem;
-  background: var(-tertiary);
-}
-
-h1.about, h1.home {
+h1, h2 {
+  padding-top: 20px;
   text-align: center;
 }
 
-.table-container {
+hr {
+  margin: 0 450px;
   display: flex;
-  flex-flow: column;
+  align-content: center;
+  border-radius: 50px;
+}
+
+.skinny-hr {
+  border-width: 0.5px;
+}
+
+.table {
+  margin: 4rem;
+  background: var(-tertiary);
+}
+
+.table-container {
   max-width: 1120px;
   width: 90%;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .table-wrapper {
@@ -43,12 +53,6 @@ h1.about, h1.home {
   text-decoration: none;
 }
 
-@media only screen and (min-width: 1024px) {
-  .table-items {
-    display: flex;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
   .table-item {
     margin-bottom: 2rem;
@@ -57,6 +61,10 @@ h1.about, h1.home {
 
 @media only screen and (max-width: 960px) {
   .table {
-    padding: 2rem 0 2rem;
+    margin: 2rem 0 2rem;
+  }
+
+  hr {
+    margin: 0 100px;
   }
 }

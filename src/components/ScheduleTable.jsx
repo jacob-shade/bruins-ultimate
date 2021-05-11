@@ -7,6 +7,7 @@ import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
+import uniqid from "uniqid";
 import "./Table.css";
 
 const useStyles = makeStyles({
@@ -33,26 +34,12 @@ const StyledTableRow = withStyles((theme) => ({
   },
 }))(TableRow);
 
-function createData(date, time, opponent, location, score, outcome) {
-  return { date, time, opponent, location, score, outcome };
-}
-
-const rows = [
-  createData(
-    "03/03",
-    "2:00PM",
-    "James Maddison",
-    "Oak Mar Rec Center",
-    "5-6",
-    "L"
-  ),
-];
-
-export default function CustomizedTables() {
+export default function ScheduleTable(props) {
+  const rows = props.rows;
   const classes = useStyles();
 
   return (
-    <TableContainer className="table" component={Paper}>
+    <TableContainer className="table table-container" component={Paper}>
       <Table className={classes.table} aria-label="cusomized table">
         <TableHead>
           <StyledTableRow>
@@ -61,12 +48,12 @@ export default function CustomizedTables() {
             <StyledTableCell align="center">Opponent</StyledTableCell>
             <StyledTableCell align="center">Location</StyledTableCell>
             <StyledTableCell align="center">Score</StyledTableCell>
-            <StyledTableCell align="center">Outcome</StyledTableCell>
+            <StyledTableCell align="center">W/L</StyledTableCell>
           </StyledTableRow>
         </TableHead>
-        <TableBody className="table-items">
+        <TableBody>
           {rows.map((row) => (
-            <StyledTableRow key={row.name}>
+            <StyledTableRow key={uniqid()}>
               <StyledTableCell align="center">{row.date}</StyledTableCell>
               <StyledTableCell align="center">{row.time}</StyledTableCell>
               <StyledTableCell align="center">{row.opponent}</StyledTableCell>

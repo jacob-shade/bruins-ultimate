@@ -21,14 +21,19 @@ function Footer() {
               type="email"
               placeholder="Your Email"
             />
-            <Button buttonStyle="btn--outline btn--medium">Subscribe</Button>
+            <Button linkTo="/sign-up" buttonStyle="btn--outline btn--medium">
+              Subscribe
+            </Button>
           </form>
         </div>
       </section>
       <section className="social-media">
         <div className="social-media-wrap">
           <p className="website-rights">© 2021 Bruins Ultimate</p>
-          <Button buttonStyle="btn--dark btn--medium contact-button">
+          <Button
+            linkTo="/about"
+            buttonStyle="btn--dark btn--medium contact-button"
+          >
             Contact Us
           </Button>
           <div className="social-icons">
