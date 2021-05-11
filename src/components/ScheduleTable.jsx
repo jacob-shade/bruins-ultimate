@@ -7,6 +7,7 @@ import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
+import "./Table.css";
 
 const useStyles = makeStyles({
   table: {
@@ -37,31 +38,36 @@ function createData(date, time, opponent, location, score, outcome) {
 }
 
 const rows = [
-  createData("03/03", "2:00PM", "James Maddison", "Oak Mar Rec Center", "5-6", "L"),
+  createData(
+    "03/03",
+    "2:00PM",
+    "James Maddison",
+    "Oak Mar Rec Center",
+    "5-6",
+    "L"
+  ),
 ];
 
 export default function CustomizedTables() {
   const classes = useStyles();
 
   return (
-    <TableContainer component={Paper}>
+    <TableContainer className="table" component={Paper}>
       <Table className={classes.table} aria-label="cusomized table">
         <TableHead>
-          <TableRow>
-            <StyledTableCell>Date</StyledTableCell>
+          <StyledTableRow>
+            <StyledTableCell align="center">Date</StyledTableCell>
             <StyledTableCell align="center">Time</StyledTableCell>
             <StyledTableCell align="center">Opponent</StyledTableCell>
             <StyledTableCell align="center">Location</StyledTableCell>
             <StyledTableCell align="center">Score</StyledTableCell>
             <StyledTableCell align="center">Outcome</StyledTableCell>
-          </TableRow>
+          </StyledTableRow>
         </TableHead>
-        <TableBody>
+        <TableBody className="table-items">
           {rows.map((row) => (
             <StyledTableRow key={row.name}>
-              <StyledTableCell component="th" scope="row">
-                {row.date}
-              </StyledTableCell>
+              <StyledTableCell align="center">{row.date}</StyledTableCell>
               <StyledTableCell align="center">{row.time}</StyledTableCell>
               <StyledTableCell align="center">{row.opponent}</StyledTableCell>
               <StyledTableCell align="center">{row.location}</StyledTableCell>
