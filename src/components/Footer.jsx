@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer-container">
-      <section className="footer-subscription">
+      {/* <section className="footer-subscription">
         <p className="footer-subscription-heading">
           Gain Access to the Bruins Ultimate Newsletter!
         </p>
@@ -26,7 +26,7 @@ function Footer() {
             </Button>
           </form>
         </div>
-      </section>
+      </section> */}
       <section className="social-media">
         <div className="social-media-wrap">
           <p className="website-rights">© 2021 Bruins Ultimate</p>
@@ -37,38 +37,38 @@ function Footer() {
             Contact Us
           </Button>
           <div className="social-icons">
-            <Link
+            <a
               className="social-icon-link facebook"
-              to="/"
+              href="https://facebook.com/bruinsultimate"
               target="_blank"
               aria-label="Facebook"
             >
               <i className="fab fa-facebook-f" />
-            </Link>
-            <Link
+            </a>
+            <a
               className="social-icon-link instagram"
-              to="/"
+              href="https://www.instagram.com/bruinsultimate/"
               target="_blank"
               aria-label="Instagram"
             >
               <i className="fab fa-instagram" />
-            </Link>
-            <Link
+            </a>
+            <a
               className="social-icon-link youtube"
-              to="/"
+              href="https://youtube.com/bruinsultimate"
               target="_blank"
               aria-label="Youtube"
             >
               <i className="fab fa-youtube" />
-            </Link>
-            <Link
+            </a>
+            <a
               className="social-icon-link twitter"
-              to="/"
+              href="https://twitter.com/bruinsultimate"
               target="_blank"
               aria-label="Twitter"
             >
               <i className="fab fa-twitter" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
