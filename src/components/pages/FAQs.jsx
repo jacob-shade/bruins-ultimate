@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../Button";
 import "./FAQs.css";
 
 export default function FAQs() {
@@ -55,7 +56,14 @@ export default function FAQs() {
             free to reach out to the coaches and we can figure something out!
           </p>
           <h2>How can I find out more info about the team?</h2>
-          <p>You can check the about page and sign up for more info!</p>
+          <p>You can check the about page and sign up for more info!{" "}<Button
+          className="btns"
+          buttonStyle="btn--primary"
+          buttonSize="btn--large"
+          linkTo="/sign-up"
+        >
+          Sign Up!
+        </Button></p>
         </div>
         <img
           src="../../images/states-19-4.PNG"
