@@ -30,7 +30,7 @@
   text-align: left;
 }
 
-img {
+img.faq-img {
   padding-left: 20px;
 }
 
@@ -39,7 +39,7 @@ img {
     margin: 0 1rem;
   }
 
-  img {
+  img.faq-img {
     padding-left: 0;
   }
 
