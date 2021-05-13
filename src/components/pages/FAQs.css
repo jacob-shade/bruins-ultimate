@@ -30,9 +30,17 @@
   text-align: left;
 }
 
+img {
+  padding-left: 20px;
+}
+
 @media only screen and (max-width: 960px) {
   .faqs {
     margin: 0 1rem;
+  }
+
+  img {
+    padding-left: 0;
   }
 
   .w-50 {

@@ -36,7 +36,7 @@ export default function FAQs() {
           <p>You can check the about page and sign up for more info!</p>
         </div>
         <img
-          src="../../images/sign_up.png"
+          src="../../images/states-19-4.PNG"
           alt="faq pic"
           className="faq-img w-50"
         />

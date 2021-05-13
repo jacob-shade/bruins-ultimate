@@ -9,7 +9,7 @@ function AboutBlurbSection() {
         <h1 className="about-us">About Us</h1>
         <hr></hr>
           <BlurbSection
-            src="../images/sign_up.png"
+            src="../images/fxu-end-fall-19.jpg"
             alt="team photo"
             text1="Bruins Ultimate is a youth ultimate team from Lake Braddock Secondary School in Burke, VA. In the Fall we play mixed(co-ed) and in the Spring we play as seperate girls and open teams. At the end of the spring, we compete at the Virginia State Championships and we enter numerous tournaments throughout the year!"
             text2="Practice Info:"
