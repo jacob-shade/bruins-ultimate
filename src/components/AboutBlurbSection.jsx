@@ -13,7 +13,7 @@ function AboutBlurbSection() {
             alt="team photo"
             text1="Bruins Ultimate is a youth ultimate team from Lake Braddock Secondary School in Burke, VA. In the Fall we play mixed(co-ed) and in the Spring we play as seperate girls and open teams. At the end of the spring, we compete at the Virginia State Championships and we enter numerous tournaments throughout the year!"
             text2="Practice Info:"
-            text3="WHEN?&nbsp;&nbsp;&emsp;M, W, Th from 3:30-6:00pm"
+            text3="WHEN?&nbsp;&nbsp;&emsp;M, T, W, Th from 3:15-5:30pm"
             text4="WHERE?&emsp;Lake Braddock Park, Upper Field"
             text5="If you are a Lake Braddock student and are thinking about joining Bruins Ultimate, fill out the interest form here:"
           />
