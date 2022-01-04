@@ -26,7 +26,7 @@ export default function FAQs() {
             </a>
           </p>
           <h2>When and where does the team practice?</h2>
-          <p>We practice M, T, W, Th from 3:30-6:00 at Lake Braddock Park, Upper Field. Sign up to make sure you are notified of practice!</p>
+          <p>HS practices T, W, Th from 3:30-5:30 at Lake Braddock Park, Upper Field. MS practices on Mondays at the same time and place. Sign up to make sure you are notified of practice!</p>
           <h2>Where is Lake Braddock Park?</h2>
           <p>
             It's just a short walk from the school. Directions{" "}
