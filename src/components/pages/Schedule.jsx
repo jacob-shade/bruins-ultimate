@@ -106,7 +106,7 @@ export default function Schedule() {
         getGirlsSpringYear();
         break;
       case("Fall"):
-        schedule = <ScheduleNA />
+        getGirlsFallYear()
         break;
     }
   }
@@ -117,6 +117,7 @@ export default function Schedule() {
         schedule = <Sp21OSchedule />
         break;
       case("2021-2022"):
+        schedule = <ScheduleTBD />
         break;
     }
   }

@@ -29,7 +29,7 @@ function Footer() {
       </section> */}
       <section className="social-media">
         <div className="social-media-wrap">
-          <p className="website-rights">© 2021 Bruins Ultimate</p>
+          <p className="website-rights">© 2022 Bruins Ultimate</p>
           <Button
             linkTo="/about"
             buttonStyle="btn--dark btn--medium contact-button"
