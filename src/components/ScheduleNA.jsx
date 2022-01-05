@@ -6,12 +6,10 @@ function createData(date, time, opponent, location, score, outcome) {
 }
 
 const rows = [
-  createData("05/02", "08:45AM", "Wilson", "Lake Fairfax Park", "?", "L"),
-  createData("05/02", "10:10PM", "Skymall", "Lake Fairfax Park", "?", "L"),
-  createData("05/02", "11:45AM", "Madluv", "Lake Fairfax Park", "?", "L"),
+  createData("N/A", "N/A", "N/A", "N/A", "N/A", "N/A"),
 ];
 
-export default function Sp21GFairfaxInviteSchedule() {
+export default function ScheduleNA() {
   return (
     <>
       <ScheduleTable rows={rows} />
