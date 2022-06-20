@@ -10,7 +10,7 @@ import F21XRoster from '../F21XRoster';
 const useStyles = makeStyles((theme) => ({
   formControl: {
     margin: theme.spacing(1),
-    minWidth: 80,
+    minWidth: 120,
   }
 }))
 
