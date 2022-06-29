@@ -26,7 +26,7 @@ export default function FAQs() {
             </a>
           </p>
           <h2>When and where does the team practice?</h2>
-          <p>HS practices T, W, Th from 3:30-5:30 at Lake Braddock Park, Upper Field. MS practices on Mondays at the same time and place. Sign up to make sure you are notified of practice!</p>
+          <p>HS practices T, W, Th from 3:30-5:30 at Lake Braddock Park, Upper Field. MS practices on Mondays and Wednesdays at the same time and place. Sign up to make sure you are notified of practice!</p>
           <h2>Where is Lake Braddock Park?</h2>
           <p>
             It's just a short walk from the school. Directions{" "}
@@ -52,7 +52,7 @@ export default function FAQs() {
               Fairfax Ultimate
             </a>{" "}
             highschool leagues. We will also go to a few tournaments each
-            semester, but they aren't too expesive. If money is an issue, feel
+            semester, but they aren't too expensive. If money is an issue, feel
             free to reach out to the coaches and we can figure something out!
           </p>
           <h2>How can I find out more info about the team?</h2>
