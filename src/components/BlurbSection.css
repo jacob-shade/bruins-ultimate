@@ -62,8 +62,17 @@ h4 {
   padding-bottom: 5px;
 }
 
-.list {
-  padding-left: 25px;
+.blurb-section-practice-header {
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.list-end {
+  padding-bottom:30px;
+}
+
+.after-btn {
+  margin-top: 30px;
 }
 
 hr {

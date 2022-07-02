@@ -14,18 +14,29 @@ function BlurbSection(props) {
       <div className="blurb-section-info w-50">
         <p className="blurb-section-text">{props.text1}</p>
         <hr className="hr-skinny"></hr>
-        <p className="blurb-section-practice">{props.text2}</p>
+        <p className="blurb-section-practice-header">{props.text2}</p>
         <p className="blurb-section-practice list">{props.text3}</p>
-        <p className="blurb-section-text list">{props.text4}</p>
+        <p className="blurb-section-practice list">{props.text4}</p>
+        <p className="blurb-section-practice list-end">{props.text5}</p>
         <hr className="hr-skinny"></hr>
-        <p className="blurb-section-bottom">{props.text5}</p>
+        <p className="blurb-section-text">{props.text6}</p>
         <Button
-          className="btns"
+          className="btns sign-up-btn"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
           linkTo="/sign-up"
         >
           Sign Up!
+        </Button>
+        <hr className="hr-skinny after-btn"></hr>
+        <p className="blurb-section-bottom">{props.text7}</p>
+        <Button
+          className="btns sign-up-btn"
+          buttonStyle="btn--primary"
+          buttonSize="btn--large"
+          linkTo="/faqs"
+        >
+          FAQs
         </Button>
       </div>
     </section>
