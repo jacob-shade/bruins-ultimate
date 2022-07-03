@@ -8,7 +8,7 @@ import About from './components/pages/About';
 import Schedule from './components/pages/Schedule';
 import Roster from "./components/pages/Roster";
 import FAQs from './components/pages/FAQs';
-import Photos from './components/pages/Photos';
+import Events from './components/pages/Events';
 import SignUp from './components/pages/SignUp';
 import Dues from './components/pages/Dues';
 import Donate from './components/pages/Donate';
@@ -24,7 +24,7 @@ function App() {
         <Route path="/faqs" component={FAQs} />
         <Route path="/schedule" component={Schedule} />
         <Route path="/roster" component={Roster} />
-        <Route path="/photos" component={Photos} />
+        <Route path="/events" component={Events} />
         <Route path="/dues" component={Dues} />
         <Route path="/donate" component={Donate} />
         <Route path="/sign-up" component={SignUp} />
