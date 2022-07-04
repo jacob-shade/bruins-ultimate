@@ -53,8 +53,7 @@ video {
 
 @media screen and (max-width: 768px) {
   .hero-container {
-    background: url('../images/fit_background.jpg') center center/cover no-repeat;
- 
+    background: url('../images/fit_background_mobile.jpg') center center/cover no-repeat;
   }
 
   .hero-container > h1 {
