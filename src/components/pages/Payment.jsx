@@ -5,8 +5,8 @@ import AboutCards from "../AboutCards";
 export default function Dues() {
   return (
     <>
-      <AboutBlurbSection />
-      {/* <AboutCards /> */}
+      <h1>Payment</h1>
+      <hr></hr>
     </>
   );
 }

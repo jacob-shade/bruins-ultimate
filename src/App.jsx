@@ -10,7 +10,7 @@ import Roster from "./components/pages/Roster";
 import FAQs from './components/pages/FAQs';
 import Events from './components/pages/Events';
 import SignUp from './components/pages/SignUp';
-import Dues from './components/pages/Dues';
+import Payment from './components/pages/Payment';
 import Donate from './components/pages/Donate';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -27,7 +27,7 @@ function App() {
         <Route path="/schedule" component={Schedule} />
         <Route path="/roster" component={Roster} />
         <Route path="/events" component={Events} />
-        <Route path="/dues" component={Dues} />
+        <Route path="/payment" component={Payment} />
         <Route path="/donate" component={Donate} />
         <Route path="/sign-up" component={SignUp} />
       </Switch>
