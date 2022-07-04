@@ -12,11 +12,13 @@ import Events from './components/pages/Events';
 import SignUp from './components/pages/SignUp';
 import Dues from './components/pages/Dues';
 import Donate from './components/pages/Donate';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
