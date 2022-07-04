@@ -48,14 +48,14 @@ h4 {
 }
 
 .blurb-section-info {
-  padding: 40px 30px 30px 30px;
+  padding: 0px 30px 0px 30px;
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
 }
 
 .blurb-section-text {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .blurb-section-practice {
@@ -105,7 +105,7 @@ hr {
 
   .blurb-section-info {
     font-size: 16px;
-    padding: 40px 0;
+    padding: 30px 0;
   }
 
   .blurb-section {
